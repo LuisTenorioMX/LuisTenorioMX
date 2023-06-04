@@ -1,0 +1,237 @@
+    :root {
+        --main-white: #f0f0f0;
+        --main-red: #be3144;
+        --main-gray: rgb(184, 184, 184);
+        --main-gray2: #303841;
+        --main-gray3: rgb(48, 56, 65);
+        --main-blue: rgb(69, 86, 125);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--main-white);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    section[id] {
+        scroll-margin-top: 7.3rem;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #navbar {
+        background-color: var(--main-red);
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    }
+
+    #navbar ul {
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    #navbar li {
+        list-style: none;
+    }
+
+    #navbar a {
+        display: block;
+        font-size: 2.2rem;
+        text-decoration: none;
+        padding: 2rem;
+        transition: color 0.3s ease-out;
+    }
+
+    #navbar a:hover {
+        color: var(--main-gray);
+    }
+
+
+    #welcome-section {
+        background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-text {
+        margin-top: 73px;
+        text-align: center;
+    }
+
+    #welcome-section h1 {
+        font-size: 6rem;
+    }
+
+    #welcome-section p {
+        font-size: 3rem;
+        font-style: italic;
+        color: var(--main-red);
+    }
+
+    #welcome-section h1 {
+        font-size: 6rem;
+    }
+
+    #welcome-section p {
+        font-size: 3rem;
+        font-style: italic;
+        color: var(--main-red);
+    }
+
+    #projects {
+        padding: 0 0 10rem;
+        background: var(--main-blue);
+    }
+
+    #projects h2 {
+        font-size: 4.2rem;
+        text-align: center;
+        padding: 6.3rem 0;
+    }
+
+    #projects-box {
+        max-width: 121.12400rem;
+        padding: 0 8rem 6.3rem 8rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(26.1rem, 1fr));
+        grid-gap: 4rem;
+    }
+
+    #projects-box a {
+        background-color: var(--main-gray3);
+        box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+        text-decoration: none;
+    }
+
+    a img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .code {
+        font-size: 2rem;
+        color: var(--main-gray);
+        transition: color 0.3s ease-out;
+    }
+
+    .project-tile:hover .code {
+        color: #ff7f50;
+    }
+
+    .project-title {
+        font-size: 2.2rem;
+        padding: 0.8rem 0.5rem;
+    }
+
+    .project-date {
+        font-size: 1.2rem;
+        padding: 0 0 0.5rem 0.5rem;
+        color: var(--main-gray);
+    }
+
+    .container-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: var(--main-gray3);
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 2px;
+        width: 152.78px;
+        text-decoration: none;
+        transition: background 0.3s ease-out;
+    }
+
+    .btn:hover {
+        background: var(--main-red);
+    }
+
+    .fa-solid {
+        margin-left: 10px;
+        font-size: 2rem;
+        transition: transform 0.3s ease-out;
+    }
+
+    .btn:hover i {
+        transform: translateX(2px);
+    }
+
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 19.2rem);
+        background-color: var(--main-gray3);
+    }
+
+    .contact-section-header {
+        text-align: center;
+    }
+
+    .contact-section-header h2 {
+        font-size: 6rem;
+    }
+
+    .contact-section-header p {
+        font-size: 1.8rem;
+        font-style: italic;
+    }
+
+    .contact-links {
+        display: flex;
+        margin-top: 4rem;
+    }
+
+    .contact-links a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        padding: 1rem 2rem;
+        transition: transform 0.3s ease-out;
+    }
+
+    .contact-links a:hover {
+        transform: translateY(8px);
+    }
+
+
+    .contact-links i,
+    p {
+        font-size: 2.4rem;
+    }
+
+    .contact-links i {
+        margin-right: 6px;
+    }
+
+    footer {
+        background-color: var(--main-gray3);
+        border-top: 0.4rem solid var(--main-red);
+        padding: 4rem 0;
+        text-align: center;
+    }
