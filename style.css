@@ -106,7 +106,7 @@
 
     #projects-box {
         max-width: 121.12400rem;
-        padding: 0 8rem 6.3rem 8rem;
+        padding: 0 8rem 6.3rem;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(26.1rem, 1fr));
@@ -201,8 +201,8 @@
     }
 
     .contact-links {
-        display: flex;
         margin-top: 4rem;
+        display: flex;
     }
 
     .contact-links a {
