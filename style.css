@@ -228,6 +228,10 @@
         margin-right: 6px;
     }
 
+    #contact-links__Email-mobile {
+        display: none;
+    }
+
     footer {
         background-color: var(--main-gray3);
         border-top: 0.4rem solid var(--main-red);
